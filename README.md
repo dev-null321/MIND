@@ -1,5 +1,4 @@
-# MIND 
-# A Racket Deep Learning Library
+# MIND
 
 MIND is a simple deep learning library implemented in Racket, designed to provide a basic framework for building and training feedforward neural networks. The library includes essential components such as tensor operations, activation functions, loss functions, and backpropagation for gradient calculation and weight updates. This was written so I can learn more about neural networks for personal projects, to get better at racket and LISP, and of course to provide back to the community!
 
