@@ -19,6 +19,7 @@ To use the library, follow these steps:
 Clone the repository or download the source files.
 Install Racket if you haven't already.
 Include the necessary library files in your Racket project:
-
-  (require "tensor.rkt")
-  (require "deep_learn_library.rkt")
+```
+(require "tensor.rkt")
+(require "deep_learn_library.rkt")
+```
