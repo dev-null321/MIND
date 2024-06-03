@@ -69,3 +69,4 @@ This calculates the mean squared error between the predicted output and the targ
               (dense-backward input-tensor hidden-weights hidden-biases hidden-output
                               output-grad-input learning-rate)])
 ```
+Please check the test.rkt code. This is a test file that you should run to make sure everything is working correctly. It will implement a FNN, whose parameters etc you can change. I think the test file is a great point to begin. Please go over it carefully as I've tried to make it concise and readable. 
