@@ -1,7 +1,8 @@
-# Racket Deep Learning Library
+# MIND A Racket Deep Learning Library
 
-This is a simple deep learning library implemented in Racket, designed to provide a basic framework for building and training feedforward neural networks. The library includes essential components such as tensor operations, activation functions, loss functions, and backpropagation for gradient calculation and weight updates.
-Features
+MIND is a simple deep learning library implemented in Racket, designed to provide a basic framework for building and training feedforward neural networks. The library includes essential components such as tensor operations, activation functions, loss functions, and backpropagation for gradient calculation and weight updates. This was written so I can learn more about neural networks for personal projects, to get better at racket and LISP, and of course to provide back to the community!
+
+# Features
 
 Tensor creation and manipulation functions
 Element-wise tensor operations (addition, subtraction, multiplication)
@@ -24,8 +25,7 @@ Include the necessary library files in your Racket project:
 (require "deep_learn_library.rkt")
 ```
 
-Creating a tensor is very simple
-
+# Tensor creation
 ```
 (define tensor1 (create-tensor '(2 2) '(1 2 3 4)))
 ```
@@ -51,7 +51,7 @@ The library provides functions for performing forward propagation, loss calculat
 
 This performs forward propagation through the network, calculating the hidden layer output and the final output.
 
-Loss Calculation: 
+# Loss Calculation: 
 
 ```
 (let ([loss (mean-squared-error output-tensor output)])
@@ -59,7 +59,7 @@ Loss Calculation:
 
 This calculates the mean squared error between the predicted output and the target output.
 
-Backpropagation 
+# Backpropagation 
 
 ```
 (let-values ([(output-grad-weights output-grad-biases output-grad-input)
