@@ -1,5 +1,7 @@
 #lang racket
 
+;expectes mnist files to be locally downloaded
+
 (require "tensor.rkt")
 (require "deep_learn_library.rkt")
 
@@ -28,7 +30,7 @@
 
 ;; Load MNIST data
 (define (load-mnist-data type)
-  (let* ([base-path "/Users/marq/Documents/racograd/mnist-data/"]
+  (let* ([base-path ""] ;; add path to mnist folder
          [images-file (string-append base-path 
                                      (if (equal? type "train")
                                          "train-images.idx3-ubyte"
