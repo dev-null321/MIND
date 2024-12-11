@@ -117,18 +117,19 @@ Epoch 9 complete. Test accuracy: 91.87%
 
 ## TO DO
 
--Planned Tensor Operations:
--Broadcasting.
--Sparse tensor support.
--Advanced Features:
--Convolutional layers.
--GPU acceleration (CUDA/Metal).
--Learning Algorithms:
--Optimizers: SGD, Adam, RMSProp.
--Regularization: L1, L2, Dropout.
--Autograd Enhancements:
--Custom gradient functions.
--Better debugging for gradients (e.g., vanishing/exploding gradient detection).
+- **Planned Tensor Operations:**
+  - Broadcasting
+  - Sparse tensor support
+- **Advanced Features:**
+  - Convolutional layers
+  - GPU acceleration (CUDA/Metal)
+- **Learning Algorithms:**
+  - Optimizers: SGD, Adam, RMSProp
+  - Regularization: L1, L2, Dropout
+- **Autograd Enhancements:**
+  - Custom gradient functions
+  - Better debugging for gradients (e.g., vanishing/exploding gradient detection)
+
 
 ## Why RacoGrad?
 
