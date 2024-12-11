@@ -1,7 +1,6 @@
 # RacoGrad
 
-RacoGrad is a simple deep learning library implemented in Racket, a version of scheme-lisp, designed to provide a basic framework for building and training feedforward neural networks. The library includes essential components such as tensor operations, activation functions, loss functions, and backpropagation for gradient calculation and weight updates. This was written so I can learn more about neural networks for personal projects, to get better at Racket and Lisp, and of course to provide back to the community!
-
+RacoGrad is a simple deep learning library implemented in Racket, a version of scheme-lisp, designed to provide a basic framework for building and training feedforward neural networks. The library includes essential components such as tensor operations, activation functions, loss functions, and backpropagation for gradient calculation and weight updates. This is a hobby project, with updates coming sporadically. 
 ## Features
 
 - Tensor creation and manipulation functions
