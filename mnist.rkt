@@ -3,7 +3,7 @@
 ;expectes mnist files to be locally downloaded
 
 (require "tensor.rkt")
-(require "autograd".rkt")
+(require "autograd.rkt")
 
 ;; MNIST Loading functions
 (define (read-idx3-ubyte filename)
