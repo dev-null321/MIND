@@ -1,7 +1,7 @@
 #lang racket
 
 (require "tensor.rkt")
-(require "deep_learn_library.rkt")
+(require "grad.rkt")
 
 (define (test-fnn)
   (let* ([input-dim 3]
