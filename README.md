@@ -24,7 +24,7 @@ To use the library, follow these steps:
 3. Include the necessary library files in your Racket project:
    ```racket
    (require "tensor.rkt")
-   (require "autograd.rkt")
+   (require "grad.rkt")
    ```
 
 ### Tensor Creation
